@@ -1,10 +1,12 @@
 body {
-  background-color: aqua;
+  background-color: whitesmoke;
 }
 * {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+} html{
+  scroll-behavior: smooth;
 }
 
 section {
@@ -12,21 +14,35 @@ section {
 }
 
 section#hero {
-  background-color: blue;
+  background-color: rgb(117, 117, 163);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scroll-margin-top: 200px;
 }
 
-h1 {
+section#hero h1 {
   font-size: 3rem;
   text-transform: uppercase;
 }
 
-h2 {
+section#hero h2 {
   font-size: 2rem;
   text-align: center;
+}
+section#hero img {
+  border-radius: 40px;
+}
+section#proyecto {
+  scroll-margin-top: 200px;
+}
+section#proyecto h2 {
+  padding: 0.5em 0.7em;
+  border-radius: 40px;
+  box-shadow: 0 4px 7px rgb(46, 46, 68);
+  text-align: center;
+  font-size: 30px;
 }
 
 .proyecto-lista {
@@ -42,9 +58,9 @@ h2 {
 }
 
 .proyecto-detalles {
-  border: 10px solid rgb(35, 206, 120);
-  border-radius: 15px;
-  width: 300px;
+  border: 10px solid lightslategrey;
+  border-radius: 10px;
+  width: 250px;
   margin: 20px;
 }
 
@@ -57,7 +73,7 @@ header {
   top: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: aquamarine;
+  background-color: gray;
 }
 
 nav ul {
@@ -70,5 +86,26 @@ nav ul li {
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px 20px;
-  background-color: antiquewhite;
+  background-color: white;
+  text-decoration: none;
 }
+.contacto {
+}
+section#contacto h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 7px rgb(46, 46, 68);
+}
+section#contacto div {
+  width: 250px;
+  margin: 20px;
+}
+section#contacto {
+  scroll-margin-top: 200px;
+}
+
+.contacto-infocontacto {
+  margin: 20px;
+}
+
